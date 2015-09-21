@@ -15,4 +15,4 @@ auth.put("Password", "123");
         
 requestData.put("Authentication", auth);
         
-JSONObject json = LinkedHashMapHelper.toJSONObject(requestData);  // convert LinkedHashMap to json
+JSONObject json = LinkedHashMapHelper.toJSONObject(requestData); 
