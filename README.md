@@ -1,7 +1,7 @@
 # LinkedHashMapHelper
 converting LinkedHashMap to json and vice versa
 
-# use 
+## How to Use 
 
 LinkedHashMap requestData = new LinkedHashMap();
 
