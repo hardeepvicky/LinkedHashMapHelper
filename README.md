@@ -1,14 +1,15 @@
 # LinkedHashMapHelper
 converting LinkedHashMap to json and vice versa
 
-## How to Use 
+# How to Use 
 
 LinkedHashMap requestData = new LinkedHashMap();
 
 LinkedHashMap auth = new LinkedHashMap();
-auth.put("ServiceName", serviceName);
-auth.put("Username", LoginUserEntity.username);
-auth.put("Password", LoginUserEntity.password);
+
+auth.put("ServiceName", "Login");
+auth.put("Username", "user");
+auth.put("Password", "123");
         
 requestData.put("Authentication", auth);
         
